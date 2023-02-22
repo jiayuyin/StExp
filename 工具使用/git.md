@@ -82,7 +82,7 @@
     ```
     这样就成功的撤销了你的commit。注意，仅仅是撤回commit操作，您写的代码仍然保留。
 
-    HEAD^的意思是上一个版本，也可以写成HEAD~1，如果你进行了2次commit，想都撤回，可以使用HEAD~2  
+    HEAD^的意思是上一个版本，也可以写成HEAD\~1，如果你进行了2次commit，想都撤回，可以使用HEAD\~2  
 
     --mixed 不删除工作空间改动代码，撤销commit，并且撤销git add . 操作，这个为默认参数, git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
 
@@ -113,7 +113,6 @@
 
 ## 遇到的问题
 
----
 如果你clone下来一个别人的仓库，在此基础上完成你的代码，推送到自己的仓库可能遇到如下问题：  
 `error: remote origin already exists.`  
 表示远程仓库已存在。因此你要进行以下操作：  
