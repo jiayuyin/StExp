@@ -2,7 +2,6 @@
 # -*- coding:utf-8 -*-
 
 
-# zhengming@fiberhome.com
 # read mem.log from devices
 # output overview.csv and detail.csv
 

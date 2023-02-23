@@ -1,7 +1,6 @@
 #!/bin/sh
 
 
-# zhengming@Fiberhome.com
 # get mem info from devices
 
 
